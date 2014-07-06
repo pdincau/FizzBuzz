@@ -9,13 +9,13 @@ public class FizzBuzz {
 
 	public String say(int number) {
 		if (isFizz(number)) {
-			result  += FIZZ;
+			result += FIZZ;
 		}
 		if(isBuzz(number)) {
-			result  += BUZZ;
+			result += BUZZ;
 		}
 		if (result.equals("")) {
-			result  = Integer.toString(number);
+			result = Integer.toString(number);
 		}
 		return result ;
 	}

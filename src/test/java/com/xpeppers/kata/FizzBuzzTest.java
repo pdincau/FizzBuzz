@@ -40,7 +40,7 @@ public class FizzBuzzTest {
 	}
 
 	@Test
-	public void fifthteenIsFizzBuzz() {
+	public void fiftteenIsFizzBuzz() {
 		assertEquals("FizzBuzz", fizzbuzz.say(15));
 	}
 }
